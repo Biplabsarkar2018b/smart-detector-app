@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dialog_set_value.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/text_view_current_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Value: "
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edit_text_new_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter new value"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/black"
+        android:textColorHint="#2B2727"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
+

@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="30dp"
-                android:text="320"
+                android:text="The MQ3 Value"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="35sp" />
